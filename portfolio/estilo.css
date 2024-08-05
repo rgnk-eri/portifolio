@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS;
+}
+
+header {
+    background-color: #1aC325;
+    padding: 25px 15px 10px 15px;
+    color: #000000;
+}
+
+h1 {
+    width: 380px;
+    box-sizing: content-box;
+    font-size: 64px;
+    text-align: left;
+    background-color: #1aC325;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+h2 {
+    width: 250px;
+    margin-top: 5px;
+    box-sizing: content-box;
+    font-size: 46px;
+    text-align: left;
+    background-color: #1aC325;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+header, a {
+    text-align:right;
+}
+.linkicon {
+    width: 30px;
+    height: 30px;
+    box-sizing: content-box;
+}
+
+.icon1 {
+    width: 30px;
+    margin: 5px 4px;
+    transition: all 0.3s;
+}
+.icon1:hover {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+div {
+    background-color: #161616;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.link {
+    padding: 5px 10px ;
+    margin: 20px auto;
+    text-align: center;
+    list-style: none;
+    width: 400px;
+    height: 20px;
+    box-sizing: content-box;
+    transition: background-color 0.3s;
+    transition: border 0.3s;
+}
+.link:hover {
+    border: 2px solid #1aC325;
+    background-color: #00000025;
+    border-radius: 2px;
+    
+}
+
+#content {
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    width: 200px;
+    height: 50px;
+    box-sizing: content-box;
+    margin: 30px auto;
+    background-color: #1aC325;
+    text-align: center;
+    padding: 10px 15px;
+    border: 3px solid #2b432c;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 26px;
+}
+
+#img {
+    width: 250px;
+    text-align: right;
+    box-sizing: content-box;
+}
+
+#box {
+    width: 480px;
+    display: inline-block;
+    vertical-align:auto;
+    text-align: left;
+    box-sizing: content-box;
+    padding: 5px 20px;
+    transition: all 0.3s;
+}
+#box:hover {
+    background-color: #00000025;
+    border: 2px solid #1aC325;
+    border-radius: 2px;
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px;
+}
+
+footer {
+    background-color: #2b432c;
+    padding: 15px 25px;
+}
+
+#pag {
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+#contato {
+    color: #000000;
+}
+
+.icon2 {
+    width: 25px;
+
+}
